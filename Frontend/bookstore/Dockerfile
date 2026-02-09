@@ -11,12 +11,15 @@ RUN npm run build
 # ---------- Run Stage ----------
 FROM nginx:alpine
 
-# ✅ Copy built Angular files to nginx html folder
-# If your dist folder is dist/OnlineBookStoreUI then keep it
-COPY --from=build /app/dist /usr/share/nginx/html
+# Copy built Angular files - Angular 21 outputs to dist/bookstore/browser
+COPY --from=build /app/dist/bookstore/browser /usr/share/nginx/html
 
-# ✅ Nginx config for Angular routes
+# Nginx config for Angular routes and API proxy
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
+
+HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
+  CMD wget --no-verbose --tries=1 --spider http://localhost/health || exit 1
+
 CMD ["nginx", "-g", "daemon off;"]
