@@ -1,0 +1,67 @@
+<div class="row">
+  <h2>Books</h2>
+
+  <div class="search">
+    <input [(ngModel)]="keyword" placeholder="Search by title or author..." />
+    <button class="btn" (click)="search()">Search</button>
+    <button class="btn ghost" (click)="keyword=''; loadAll()">Reset</button>
+  </div>
+
+  <div class="grid" *ngIf="!loading">
+    <div class="book" *ngFor="let b of books">
+      <img [src]="b.imageUrl || 'https://via.placeholder.com/180x240?text=Book'" alt="book" />
+
+      <div class="info">
+        <h3>{{ b.title }}</h3>
+        <p class="muted">by {{ b.author }}</p>
+        <p><b>₹{{ b.price }}</b> · <span class="pill">{{ b.category }}</span></p>
+
+        <!-- STOCK -->
+        <p class="muted">
+          Stock:
+          <b [style.color]="(b.stock ?? 0) === 0 ? 'red' : 'inherit'">
+            {{ (b.stock ?? 0) === 0 ? 'Out of stock' : (b.stock ?? 0) }}
+          </b>
+        </p>
+
+        <!-- ACTIONS -->
+        <div class="actions">
+
+          <!-- USER ONLY -->
+          <div *ngIf="token.isLoggedIn() && token.isUser()" 
+               style="display:flex;gap:10px;align-items:center;">
+            <input
+              type="number"
+              min="1"
+              [max]="b.stock ?? 999999"
+              [(ngModel)]="qty[b.id!]"
+              [ngModelOptions]="{ standalone: true }"
+              style="width:70px;padding:8px;border:1px solid #ddd;border-radius:10px;"
+            />
+
+            <button
+              class="btn primary"
+              (click)="addToCart(b)"
+              [disabled]="(b.stock ?? 0) === 0">
+              Add to Cart
+            </button>
+          </div>
+
+          <!-- ADMIN ONLY -->
+          <a *ngIf="token.isAdmin()" 
+             class="btn"
+             [routerLink]="['/admin/books', b.id, 'edit']">
+             Edit
+          </a>
+
+          <button *ngIf="token.isAdmin()" 
+                  class="btn danger"
+                  (click)="deleteBook(b.id)">
+            Delete
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

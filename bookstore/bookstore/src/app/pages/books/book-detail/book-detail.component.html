@@ -1,0 +1,32 @@
+<div class="error" *ngIf="err">{{ err }}</div>
+
+<div class="detail" *ngIf="book">
+  <a routerLink="/books" class="link">← Back</a>
+
+  <div class="detail-card">
+    <img [src]="book.imageUrl || 'https://via.placeholder.com/220x300?text=Book'" alt="book" />
+
+    <div class="dinfo">
+      <h2>{{ book.title }}</h2>
+      <p class="muted">by {{ book.author }}</p>
+
+      <p class="price">₹{{ book.price }}</p>
+
+      <div class="meta">
+        <div><b>Category:</b> {{ book.category }}</div>
+        <div><b>ISBN:</b> {{ book.isbn }}</div>
+        <div><b>Stock:</b> {{ book.stock }}</div>
+        <div><b>Language:</b> {{ book.language || '-' }}</div>
+        <div><b>Publisher:</b> {{ book.publisher || '-' }}</div>
+        <div><b>Published:</b> {{ book.publicationDate || '-' }}</div>
+        <div><b>Rating:</b> {{ book.rating ?? '-' }} ({{ book.ratingCount ?? 0 }})</div>
+      </div>
+
+      <p class="desc" *ngIf="book.description">{{ book.description }}</p>
+
+      <div class="actions" *ngIf="token.isAdmin()">
+        <a class="btn" [routerLink]="['/admin/books', book.id, 'edit']">Edit</a>
+      </div>
+    </div>
+  </div>
+</div>

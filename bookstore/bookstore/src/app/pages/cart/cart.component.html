@@ -1,0 +1,35 @@
+<div class="row">
+  <h2>My Cart</h2>
+
+  <div class="muted" *ngIf="loading">Loading...</div>
+  <div class="error" *ngIf="err">{{ err }}</div>
+
+  <div class="muted" *ngIf="!loading && !err && cart.items.length === 0">
+    Your cart is empty.
+  </div>
+
+  <div *ngIf="!loading && cart.items.length > 0">
+    <div style="display:flex;gap:12px;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid #eee;"
+         *ngFor="let it of cart.items">
+      <div>
+        <b>{{ it.book.title }}</b>
+        <div class="muted">₹{{ it.unitPrice }} each</div>
+      </div>
+
+      <div style="display:flex;gap:8px;align-items:center;">
+        <input type="number" min="1" [max]="it.book.stock ?? 999999"
+               [(ngModel)]="it.quantity" [ngModelOptions]="{standalone:true}"
+               style="width:70px;padding:8px;border:1px solid #ddd;border-radius:10px;" />
+        <!-- <button class="btn" (click)="updateQty(it.book.id!, it.quantity)">Update</button> -->
+        <button class="btn danger" (click)="remove(it.book.id!)">Remove</button>
+      </div>
+
+      <div><b>₹{{ it.subTotal }}</b></div>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-top:14px;">
+      <b>Total: ₹{{ total }}</b>
+      <button class="btn ghost" (click)="clear()">Clear</button>
+    </div>
+  </div>
+</div>

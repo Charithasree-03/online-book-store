@@ -1,0 +1,791 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.example:OnlineBookStore >---------------------
+[INFO] Building OnlineBookStore 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ OnlineBookStore ---
+[INFO] Deleting C:\Users\chari\Desktop\Capstone\OnlineBookStore-backend\OnlineBookStore\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ OnlineBookStore ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ OnlineBookStore ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 18 source files with javac [debug release 17] to target\classes
+[INFO] /C:/Users/chari/Desktop/Capstone/OnlineBookStore-backend/OnlineBookStore/src/main/java/com/example/OnlineBookStore/service/JWTService.java: C:\Users\chari\Desktop\Capstone\OnlineBookStore-backend\OnlineBookStore\src\main\java\com\example\OnlineBookStore\service\JWTService.java uses or overrides a deprecated API.
+[INFO] /C:/Users/chari/Desktop/Capstone/OnlineBookStore-backend/OnlineBookStore/src/main/java/com/example/OnlineBookStore/service/JWTService.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ OnlineBookStore ---
+[INFO] skip non existing resourceDirectory C:\Users\chari\Desktop\Capstone\OnlineBookStore-backend\OnlineBookStore\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ OnlineBookStore ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ OnlineBookStore ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.1.2/surefire-logger-api-3.1.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.1.2/surefire-api-3.1.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.1.2/maven-surefire-common-3.1.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.1.2/surefire-extensions-api-3.1.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.1.2/surefire-booter-3.1.2.jar
+Progress (1): 0.9/26 kB
+Progress (2): 0.9/26 kB | 0.9/171 kB
+Progress (3): 0.9/26 kB | 0.9/171 kB | 0.9/118 kB
+Progress (3): 0.9/26 kB | 2.3/171 kB | 0.9/118 kB
+Progress (3): 2.3/26 kB | 2.3/171 kB | 0.9/118 kB
+Progress (3): 2.3/26 kB | 3.7/171 kB | 0.9/118 kB
+Progress (3): 2.3/26 kB | 3.7/171 kB | 2.3/118 kB
+Progress (3): 2.3/26 kB | 5.0/171 kB | 2.3/118 kB
+Progress (3): 2.3/26 kB | 5.0/171 kB | 3.7/118 kB
+Progress (3): 2.3/26 kB | 6.4/171 kB | 3.7/118 kB
+Progress (4): 2.3/26 kB | 6.4/171 kB | 3.7/118 kB | 0.9/14 kB
+Progress (4): 2.3/26 kB | 7.8/171 kB | 3.7/118 kB | 0.9/14 kB
+Progress (4): 2.3/26 kB | 7.8/171 kB | 5.0/118 kB | 0.9/14 kB
+Progress (4): 2.3/26 kB | 9.1/171 kB | 5.0/118 kB | 0.9/14 kB
+Progress (4): 2.3/26 kB | 9.1/171 kB | 6.4/118 kB | 0.9/14 kB
+Progress (4): 2.3/26 kB | 9.1/171 kB | 6.4/118 kB | 2.3/14 kB
+Progress (4): 3.7/26 kB | 9.1/171 kB | 6.4/118 kB | 2.3/14 kB
+Progress (4): 3.7/26 kB | 11/171 kB | 6.4/118 kB | 2.3/14 kB 
+Progress (4): 3.7/26 kB | 11/171 kB | 7.8/118 kB | 2.3/14 kB
+Progress (4): 3.7/26 kB | 11/171 kB | 7.8/118 kB | 3.7/14 kB
+Progress (4): 3.7/26 kB | 12/171 kB | 7.8/118 kB | 3.7/14 kB
+Progress (4): 3.7/26 kB | 12/171 kB | 9.1/118 kB | 3.7/14 kB
+Progress (4): 3.7/26 kB | 13/171 kB | 9.1/118 kB | 3.7/14 kB
+Progress (4): 3.7/26 kB | 13/171 kB | 9.1/118 kB | 5.0/14 kB
+Progress (4): 3.7/26 kB | 14/171 kB | 9.1/118 kB | 5.0/14 kB
+Progress (4): 3.7/26 kB | 14/171 kB | 11/118 kB | 5.0/14 kB 
+Progress (4): 3.7/26 kB | 14/171 kB | 11/118 kB | 6.4/14 kB
+Progress (4): 3.7/26 kB | 16/171 kB | 11/118 kB | 6.4/14 kB
+Progress (4): 3.7/26 kB | 16/171 kB | 12/118 kB | 6.4/14 kB
+Progress (4): 3.7/26 kB | 17/171 kB | 12/118 kB | 6.4/14 kB
+Progress (4): 3.7/26 kB | 17/171 kB | 12/118 kB | 7.8/14 kB
+Progress (4): 5.0/26 kB | 17/171 kB | 12/118 kB | 7.8/14 kB
+Progress (4): 5.0/26 kB | 18/171 kB | 12/118 kB | 7.8/14 kB
+Progress (4): 5.0/26 kB | 18/171 kB | 13/118 kB | 7.8/14 kB
+Progress (4): 6.4/26 kB | 18/171 kB | 13/118 kB | 7.8/14 kB
+Progress (4): 6.4/26 kB | 20/171 kB | 13/118 kB | 7.8/14 kB
+Progress (4): 6.4/26 kB | 20/171 kB | 13/118 kB | 9.1/14 kB
+Progress (4): 6.4/26 kB | 21/171 kB | 13/118 kB | 9.1/14 kB
+Progress (4): 7.8/26 kB | 21/171 kB | 13/118 kB | 9.1/14 kB
+Progress (4): 7.8/26 kB | 21/171 kB | 15/118 kB | 9.1/14 kB
+Progress (4): 7.8/26 kB | 21/171 kB | 15/118 kB | 11/14 kB 
+Progress (4): 7.8/26 kB | 23/171 kB | 15/118 kB | 11/14 kB
+Progress (4): 7.8/26 kB | 23/171 kB | 15/118 kB | 12/14 kB
+Progress (4): 7.8/26 kB | 23/171 kB | 16/118 kB | 12/14 kB
+Progress (4): 7.8/26 kB | 24/171 kB | 16/118 kB | 12/14 kB
+Progress (4): 7.8/26 kB | 24/171 kB | 16/118 kB | 13/14 kB
+Progress (4): 7.8/26 kB | 25/171 kB | 16/118 kB | 13/14 kB
+Progress (4): 7.8/26 kB | 25/171 kB | 16/118 kB | 14 kB   
+Progress (4): 9.1/26 kB | 25/171 kB | 16/118 kB | 14 kB
+Progress (4): 9.1/26 kB | 27/171 kB | 16/118 kB | 14 kB
+Progress (4): 11/26 kB | 27/171 kB | 16/118 kB | 14 kB 
+Progress (4): 11/26 kB | 28/171 kB | 16/118 kB | 14 kB
+Progress (4): 11/26 kB | 29/171 kB | 16/118 kB | 14 kB
+Progress (4): 12/26 kB | 29/171 kB | 16/118 kB | 14 kB
+Progress (4): 12/26 kB | 31/171 kB | 16/118 kB | 14 kB
+Progress (4): 12/26 kB | 32/171 kB | 16/118 kB | 14 kB
+Progress (4): 13/26 kB | 32/171 kB | 16/118 kB | 14 kB
+Progress (4): 13/26 kB | 32/171 kB | 17/118 kB | 14 kB
+Progress (4): 13/26 kB | 33/171 kB | 17/118 kB | 14 kB
+Progress (4): 14/26 kB | 33/171 kB | 17/118 kB | 14 kB
+Progress (4): 14/26 kB | 35/171 kB | 17/118 kB | 14 kB
+Progress (4): 14/26 kB | 35/171 kB | 19/118 kB | 14 kB
+Progress (4): 16/26 kB | 35/171 kB | 19/118 kB | 14 kB
+Progress (4): 16/26 kB | 36/171 kB | 19/118 kB | 14 kB
+Progress (4): 16/26 kB | 36/171 kB | 20/118 kB | 14 kB
+Progress (4): 16/26 kB | 38/171 kB | 20/118 kB | 14 kB
+Progress (4): 16/26 kB | 38/171 kB | 21/118 kB | 14 kB
+Progress (4): 16/26 kB | 39/171 kB | 21/118 kB | 14 kB
+Progress (4): 16/26 kB | 39/171 kB | 23/118 kB | 14 kB
+Progress (4): 16/26 kB | 40/171 kB | 23/118 kB | 14 kB
+Progress (4): 16/26 kB | 42/171 kB | 23/118 kB | 14 kB
+Progress (4): 16/26 kB | 42/171 kB | 24/118 kB | 14 kB
+Progress (4): 17/26 kB | 42/171 kB | 24/118 kB | 14 kB
+Progress (4): 17/26 kB | 43/171 kB | 24/118 kB | 14 kB
+Progress (4): 17/26 kB | 43/171 kB | 26/118 kB | 14 kB
+Progress (4): 17/26 kB | 44/171 kB | 26/118 kB | 14 kB
+Progress (4): 18/26 kB | 44/171 kB | 26/118 kB | 14 kB
+Progress (5): 18/26 kB | 44/171 kB | 26/118 kB | 14 kB | 0.9/306 kB
+Progress (5): 18/26 kB | 46/171 kB | 26/118 kB | 14 kB | 0.9/306 kB
+Progress (5): 18/26 kB | 46/171 kB | 26/118 kB | 14 kB | 2.3/306 kB
+Progress (5): 20/26 kB | 46/171 kB | 26/118 kB | 14 kB | 2.3/306 kB
+Progress (5): 20/26 kB | 47/171 kB | 26/118 kB | 14 kB | 2.3/306 kB
+Progress (5): 20/26 kB | 47/171 kB | 26/118 kB | 14 kB | 3.7/306 kB
+Progress (5): 20/26 kB | 47/171 kB | 27/118 kB | 14 kB | 3.7/306 kB
+Progress (5): 20/26 kB | 49/171 kB | 27/118 kB | 14 kB | 3.7/306 kB
+Progress (5): 21/26 kB | 49/171 kB | 27/118 kB | 14 kB | 3.7/306 kB
+Progress (5): 21/26 kB | 49/171 kB | 27/118 kB | 14 kB | 5.0/306 kB
+Progress (5): 21/26 kB | 50/171 kB | 27/118 kB | 14 kB | 5.0/306 kB
+Progress (5): 23/26 kB | 50/171 kB | 27/118 kB | 14 kB | 5.0/306 kB
+Progress (5): 23/26 kB | 50/171 kB | 27/118 kB | 14 kB | 6.4/306 kB
+Progress (5): 23/26 kB | 51/171 kB | 27/118 kB | 14 kB | 6.4/306 kB
+Progress (5): 24/26 kB | 51/171 kB | 27/118 kB | 14 kB | 6.4/306 kB
+Progress (5): 24/26 kB | 53/171 kB | 27/118 kB | 14 kB | 6.4/306 kB
+Progress (5): 24/26 kB | 53/171 kB | 27/118 kB | 14 kB | 7.8/306 kB
+Progress (5): 24/26 kB | 53/171 kB | 28/118 kB | 14 kB | 7.8/306 kB
+Progress (5): 24/26 kB | 54/171 kB | 28/118 kB | 14 kB | 7.8/306 kB
+Progress (5): 24/26 kB | 54/171 kB | 28/118 kB | 14 kB | 9.1/306 kB
+Progress (5): 25/26 kB | 54/171 kB | 28/118 kB | 14 kB | 9.1/306 kB
+Progress (5): 25/26 kB | 55/171 kB | 28/118 kB | 14 kB | 9.1/306 kB
+Progress (5): 25/26 kB | 55/171 kB | 28/118 kB | 14 kB | 11/306 kB 
+Progress (5): 26 kB | 55/171 kB | 28/118 kB | 14 kB | 11/306 kB   
+Progress (5): 26 kB | 55/171 kB | 28/118 kB | 14 kB | 12/306 kB
+Progress (5): 26 kB | 55/171 kB | 28/118 kB | 14 kB | 13/306 kB
+Progress (5): 26 kB | 55/171 kB | 30/118 kB | 14 kB | 13/306 kB
+Progress (5): 26 kB | 60/171 kB | 30/118 kB | 14 kB | 13/306 kB
+Progress (5): 26 kB | 60/171 kB | 30/118 kB | 14 kB | 14/306 kB
+Progress (5): 26 kB | 60/171 kB | 30/118 kB | 14 kB | 16/306 kB
+Progress (5): 26 kB | 60/171 kB | 31/118 kB | 14 kB | 16/306 kB
+Progress (5): 26 kB | 60/171 kB | 31/118 kB | 14 kB | 17/306 kB
+Progress (5): 26 kB | 60/171 kB | 32/118 kB | 14 kB | 17/306 kB
+Progress (5): 26 kB | 60/171 kB | 32/118 kB | 14 kB | 18/306 kB
+Progress (5): 26 kB | 60/171 kB | 34/118 kB | 14 kB | 18/306 kB
+Progress (5): 26 kB | 60/171 kB | 34/118 kB | 14 kB | 20/306 kB
+Progress (5): 26 kB | 60/171 kB | 34/118 kB | 14 kB | 21/306 kB
+Progress (5): 26 kB | 60/171 kB | 35/118 kB | 14 kB | 21/306 kB
+Progress (5): 26 kB | 60/171 kB | 37/118 kB | 14 kB | 21/306 kB
+Progress (5): 26 kB | 60/171 kB | 37/118 kB | 14 kB | 23/306 kB
+Progress (5): 26 kB | 60/171 kB | 38/118 kB | 14 kB | 23/306 kB
+Progress (5): 26 kB | 60/171 kB | 38/118 kB | 14 kB | 24/306 kB
+Progress (5): 26 kB | 60/171 kB | 39/118 kB | 14 kB | 24/306 kB
+Progress (5): 26 kB | 60/171 kB | 39/118 kB | 14 kB | 25/306 kB
+Progress (5): 26 kB | 60/171 kB | 41/118 kB | 14 kB | 25/306 kB
+Progress (5): 26 kB | 60/171 kB | 41/118 kB | 14 kB | 27/306 kB
+Progress (5): 26 kB | 60/171 kB | 42/118 kB | 14 kB | 27/306 kB
+Progress (5): 26 kB | 60/171 kB | 42/118 kB | 14 kB | 28/306 kB
+Progress (5): 26 kB | 60/171 kB | 43/118 kB | 14 kB | 28/306 kB
+Progress (5): 26 kB | 60/171 kB | 43/118 kB | 14 kB | 29/306 kB
+Progress (5): 26 kB | 60/171 kB | 45/118 kB | 14 kB | 29/306 kB
+Progress (5): 26 kB | 60/171 kB | 45/118 kB | 14 kB | 31/306 kB
+Progress (5): 26 kB | 60/171 kB | 45/118 kB | 14 kB | 32/306 kB
+Progress (5): 26 kB | 60/171 kB | 46/118 kB | 14 kB | 32/306 kB
+Progress (5): 26 kB | 60/171 kB | 47/118 kB | 14 kB | 32/306 kB
+Progress (5): 26 kB | 60/171 kB | 47/118 kB | 14 kB | 33/306 kB
+Progress (5): 26 kB | 60/171 kB | 49/118 kB | 14 kB | 33/306 kB
+Progress (5): 26 kB | 60/171 kB | 49/118 kB | 14 kB | 35/306 kB
+Progress (5): 26 kB | 60/171 kB | 50/118 kB | 14 kB | 35/306 kB
+Progress (5): 26 kB | 60/171 kB | 50/118 kB | 14 kB | 36/306 kB
+Progress (5): 26 kB | 60/171 kB | 50/118 kB | 14 kB | 38/306 kB
+Progress (5): 26 kB | 60/171 kB | 52/118 kB | 14 kB | 38/306 kB
+Progress (5): 26 kB | 60/171 kB | 53/118 kB | 14 kB | 38/306 kB
+Progress (5): 26 kB | 60/171 kB | 53/118 kB | 14 kB | 39/306 kB
+Progress (5): 26 kB | 60/171 kB | 53/118 kB | 14 kB | 40/306 kB
+Progress (5): 26 kB | 60/171 kB | 54/118 kB | 14 kB | 40/306 kB
+Progress (5): 26 kB | 60/171 kB | 54/118 kB | 14 kB | 42/306 kB
+Progress (5): 26 kB | 60/171 kB | 54/118 kB | 14 kB | 43/306 kB
+Progress (5): 26 kB | 60/171 kB | 54/118 kB | 14 kB | 44/306 kB
+Progress (5): 26 kB | 60/171 kB | 54/118 kB | 14 kB | 46/306 kB
+Progress (5): 26 kB | 60/171 kB | 54/118 kB | 14 kB | 47/306 kB
+Progress (5): 26 kB | 60/171 kB | 56/118 kB | 14 kB | 47/306 kB
+Progress (5): 26 kB | 60/171 kB | 56/118 kB | 14 kB | 49/306 kB
+Progress (5): 26 kB | 60/171 kB | 56/118 kB | 14 kB | 50/306 kB
+Progress (5): 26 kB | 60/171 kB | 56/118 kB | 14 kB | 51/306 kB
+Progress (5): 26 kB | 60/171 kB | 60/118 kB | 14 kB | 51/306 kB
+Progress (5): 26 kB | 60/171 kB | 60/118 kB | 14 kB | 53/306 kB
+Progress (5): 26 kB | 60/171 kB | 60/118 kB | 14 kB | 54/306 kB
+Progress (5): 26 kB | 60/171 kB | 60/118 kB | 14 kB | 55/306 kB
+Progress (5): 26 kB | 60/171 kB | 64/118 kB | 14 kB | 55/306 kB
+                                                               
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.1.2/surefire-logger-api-3.1.2.jar (14 kB at 12 kB/s)
+Progress (4): 26 kB | 60/171 kB | 64/118 kB | 60/306 kB
+                                                       
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.1.2/surefire-extensions-spi-3.1.2.jar
+Progress (4): 26 kB | 60/171 kB | 68/118 kB | 60/306 kB
+                                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.1.2/surefire-extensions-api-3.1.2.jar (26 kB at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar
+Progress (3): 64/171 kB | 68/118 kB | 60/306 kB
+Progress (3): 64/171 kB | 73/118 kB | 60/306 kB
+Progress (3): 68/171 kB | 73/118 kB | 60/306 kB
+Progress (3): 72/171 kB | 73/118 kB | 60/306 kB
+Progress (3): 77/171 kB | 73/118 kB | 60/306 kB
+Progress (3): 81/171 kB | 73/118 kB | 60/306 kB
+Progress (3): 85/171 kB | 73/118 kB | 60/306 kB
+Progress (3): 89/171 kB | 73/118 kB | 60/306 kB
+Progress (3): 93/171 kB | 73/118 kB | 60/306 kB
+Progress (3): 98/171 kB | 73/118 kB | 60/306 kB
+Progress (3): 102/171 kB | 73/118 kB | 60/306 kB
+Progress (3): 106/171 kB | 73/118 kB | 60/306 kB
+Progress (3): 110/171 kB | 73/118 kB | 60/306 kB
+Progress (3): 110/171 kB | 73/118 kB | 64/306 kB
+Progress (3): 115/171 kB | 73/118 kB | 64/306 kB
+Progress (3): 119/171 kB | 73/118 kB | 64/306 kB
+Progress (3): 123/171 kB | 73/118 kB | 64/306 kB
+Progress (3): 127/171 kB | 73/118 kB | 64/306 kB
+Progress (3): 132/171 kB | 73/118 kB | 64/306 kB
+Progress (3): 132/171 kB | 77/118 kB | 64/306 kB
+Progress (3): 136/171 kB | 77/118 kB | 64/306 kB
+Progress (3): 136/171 kB | 81/118 kB | 64/306 kB
+Progress (3): 136/171 kB | 85/118 kB | 64/306 kB
+Progress (3): 140/171 kB | 85/118 kB | 64/306 kB
+Progress (3): 140/171 kB | 90/118 kB | 64/306 kB
+Progress (3): 143/171 kB | 90/118 kB | 64/306 kB
+Progress (3): 143/171 kB | 94/118 kB | 64/306 kB
+Progress (3): 147/171 kB | 94/118 kB | 64/306 kB
+Progress (3): 147/171 kB | 98/118 kB | 64/306 kB
+Progress (3): 151/171 kB | 98/118 kB | 64/306 kB
+Progress (3): 151/171 kB | 102/118 kB | 64/306 kB
+Progress (3): 155/171 kB | 102/118 kB | 64/306 kB
+Progress (3): 155/171 kB | 106/118 kB | 64/306 kB
+Progress (3): 160/171 kB | 106/118 kB | 64/306 kB
+Progress (3): 160/171 kB | 111/118 kB | 64/306 kB
+Progress (3): 164/171 kB | 111/118 kB | 64/306 kB
+Progress (3): 164/171 kB | 115/118 kB | 64/306 kB
+Progress (3): 164/171 kB | 115/118 kB | 68/306 kB
+Progress (3): 164/171 kB | 118 kB | 68/306 kB    
+Progress (3): 164/171 kB | 118 kB | 72/306 kB
+Progress (3): 168/171 kB | 118 kB | 72/306 kB
+Progress (3): 171 kB | 118 kB | 72/306 kB    
+Progress (3): 171 kB | 118 kB | 77/306 kB
+Progress (3): 171 kB | 118 kB | 81/306 kB
+Progress (3): 171 kB | 118 kB | 85/306 kB
+Progress (3): 171 kB | 118 kB | 89/306 kB
+Progress (3): 171 kB | 118 kB | 93/306 kB
+Progress (3): 171 kB | 118 kB | 98/306 kB
+Progress (3): 171 kB | 118 kB | 102/306 kB
+Progress (3): 171 kB | 118 kB | 106/306 kB
+Progress (3): 171 kB | 118 kB | 110/306 kB
+Progress (3): 171 kB | 118 kB | 115/306 kB
+Progress (3): 171 kB | 118 kB | 119/306 kB
+Progress (3): 171 kB | 118 kB | 123/306 kB
+Progress (3): 171 kB | 118 kB | 127/306 kB
+                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.1.2/surefire-booter-3.1.2.jar (118 kB at 103 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.1.2/surefire-api-3.1.2.jar (171 kB at 149 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar
+Progress (1): 132/306 kB
+Progress (1): 136/306 kB
+Progress (1): 140/306 kB
+Progress (1): 143/306 kB
+Progress (1): 147/306 kB
+Progress (1): 151/306 kB
+Progress (1): 155/306 kB
+Progress (1): 160/306 kB
+Progress (1): 164/306 kB
+Progress (1): 168/306 kB
+Progress (1): 172/306 kB
+Progress (1): 176/306 kB
+Progress (1): 181/306 kB
+Progress (1): 185/306 kB
+Progress (1): 189/306 kB
+Progress (1): 193/306 kB
+Progress (2): 193/306 kB | 0.9/8.2 kB
+Progress (2): 193/306 kB | 2.3/8.2 kB
+Progress (2): 193/306 kB | 3.7/8.2 kB
+Progress (2): 193/306 kB | 5.0/8.2 kB
+Progress (2): 193/306 kB | 6.4/8.2 kB
+Progress (2): 193/306 kB | 7.8/8.2 kB
+Progress (2): 193/306 kB | 8.2 kB    
+Progress (3): 193/306 kB | 8.2 kB | 0.9/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 2.3/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 3.7/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 5.0/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 6.4/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 7.8/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 9.1/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 11/146 kB 
+Progress (3): 193/306 kB | 8.2 kB | 12/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 13/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 15/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 16/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 17/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 19/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 20/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 21/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 23/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 24/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 26/146 kB
+Progress (3): 193/306 kB | 8.2 kB | 27/146 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.1.2/surefire-extensions-spi-3.1.2.jar (8.2 kB at 7.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.12.0/commons-io-2.12.0.jar
+Progress (2): 193/306 kB | 28/146 kB
+Progress (2): 193/306 kB | 29/146 kB
+Progress (2): 193/306 kB | 30/146 kB
+Progress (2): 193/306 kB | 31/146 kB
+Progress (2): 193/306 kB | 33/146 kB
+Progress (2): 193/306 kB | 34/146 kB
+Progress (2): 193/306 kB | 36/146 kB
+Progress (2): 193/306 kB | 37/146 kB
+Progress (2): 193/306 kB | 38/146 kB
+Progress (2): 193/306 kB | 40/146 kB
+Progress (2): 193/306 kB | 44/146 kB
+Progress (2): 193/306 kB | 48/146 kB
+Progress (2): 193/306 kB | 52/146 kB
+Progress (2): 198/306 kB | 52/146 kB
+Progress (2): 198/306 kB | 57/146 kB
+Progress (2): 198/306 kB | 61/146 kB
+Progress (2): 202/306 kB | 61/146 kB
+Progress (2): 206/306 kB | 61/146 kB
+Progress (2): 210/306 kB | 61/146 kB
+Progress (2): 215/306 kB | 61/146 kB
+Progress (2): 219/306 kB | 61/146 kB
+Progress (2): 223/306 kB | 61/146 kB
+Progress (2): 233/306 kB | 61/146 kB
+Progress (2): 239/306 kB | 61/146 kB
+Progress (2): 256/306 kB | 61/146 kB
+Progress (2): 272/306 kB | 61/146 kB
+Progress (2): 289/306 kB | 61/146 kB
+Progress (2): 305/306 kB | 61/146 kB
+Progress (2): 306 kB | 61/146 kB    
+Progress (3): 306 kB | 61/146 kB | 3.8/136 kB
+Progress (3): 306 kB | 61/146 kB | 8.0/136 kB
+Progress (3): 306 kB | 61/146 kB | 12/136 kB 
+Progress (3): 306 kB | 61/146 kB | 16/136 kB
+Progress (3): 306 kB | 61/146 kB | 20/136 kB
+Progress (3): 306 kB | 61/146 kB | 24/136 kB
+Progress (3): 306 kB | 61/146 kB | 29/136 kB
+Progress (3): 306 kB | 61/146 kB | 33/136 kB
+Progress (3): 306 kB | 61/146 kB | 37/136 kB
+Progress (3): 306 kB | 61/146 kB | 41/136 kB
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.1.2/maven-surefire-common-3.1.2.jar (306 kB at 263 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.1.2/surefire-shared-utils-3.1.2.jar
+Progress (2): 61/146 kB | 45/136 kB
+Progress (2): 61/146 kB | 50/136 kB
+Progress (3): 61/146 kB | 50/136 kB | 3.8/61 kB
+Progress (3): 61/146 kB | 50/136 kB | 8.0/61 kB
+Progress (3): 61/146 kB | 50/136 kB | 12/61 kB 
+Progress (3): 61/146 kB | 50/136 kB | 16/61 kB
+Progress (3): 61/146 kB | 50/136 kB | 21/61 kB
+Progress (3): 61/146 kB | 50/136 kB | 25/61 kB
+Progress (3): 61/146 kB | 66/136 kB | 25/61 kB
+Progress (3): 65/146 kB | 66/136 kB | 25/61 kB
+Progress (3): 69/146 kB | 66/136 kB | 25/61 kB
+Progress (3): 73/146 kB | 66/136 kB | 25/61 kB
+Progress (3): 78/146 kB | 66/136 kB | 25/61 kB
+Progress (3): 82/146 kB | 66/136 kB | 25/61 kB
+Progress (3): 86/146 kB | 66/136 kB | 25/61 kB
+Progress (3): 90/146 kB | 66/136 kB | 25/61 kB
+Progress (3): 90/146 kB | 66/136 kB | 29/61 kB
+Progress (3): 95/146 kB | 66/136 kB | 29/61 kB
+Progress (3): 95/146 kB | 82/136 kB | 29/61 kB
+Progress (3): 95/146 kB | 82/136 kB | 33/61 kB
+Progress (3): 95/146 kB | 82/136 kB | 38/61 kB
+Progress (3): 95/146 kB | 82/136 kB | 42/61 kB
+Progress (3): 95/146 kB | 82/136 kB | 46/61 kB
+Progress (3): 95/146 kB | 82/136 kB | 50/61 kB
+Progress (3): 95/146 kB | 82/136 kB | 55/61 kB
+Progress (3): 95/146 kB | 82/136 kB | 59/61 kB
+Progress (3): 95/146 kB | 99/136 kB | 59/61 kB
+Progress (3): 95/146 kB | 99/136 kB | 61 kB   
+Progress (3): 95/146 kB | 115/136 kB | 61 kB
+Progress (3): 99/146 kB | 115/136 kB | 61 kB
+Progress (3): 103/146 kB | 115/136 kB | 61 kB
+Progress (3): 103/146 kB | 132/136 kB | 61 kB
+Progress (3): 107/146 kB | 132/136 kB | 61 kB
+Progress (3): 107/146 kB | 136 kB | 61 kB    
+Progress (3): 112/146 kB | 136 kB | 61 kB
+Progress (3): 116/146 kB | 136 kB | 61 kB
+                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar (61 kB at 52 kB/s)
+Progress (2): 120/146 kB | 136 kB
+Progress (2): 124/146 kB | 136 kB
+Progress (2): 128/146 kB | 136 kB
+Progress (2): 133/146 kB | 136 kB
+Progress (3): 133/146 kB | 136 kB | 0.9/474 kB
+Progress (3): 133/146 kB | 136 kB | 2.3/474 kB
+Progress (3): 137/146 kB | 136 kB | 2.3/474 kB
+Progress (3): 137/146 kB | 136 kB | 3.7/474 kB
+Progress (3): 141/146 kB | 136 kB | 3.7/474 kB
+Progress (3): 145/146 kB | 136 kB | 3.7/474 kB
+Progress (3): 145/146 kB | 136 kB | 5.0/474 kB
+Progress (3): 146 kB | 136 kB | 5.0/474 kB    
+Progress (3): 146 kB | 136 kB | 6.4/474 kB
+Progress (3): 146 kB | 136 kB | 7.8/474 kB
+Progress (3): 146 kB | 136 kB | 9.1/474 kB
+Progress (3): 146 kB | 136 kB | 11/474 kB 
+Progress (3): 146 kB | 136 kB | 12/474 kB
+Progress (3): 146 kB | 136 kB | 13/474 kB
+Progress (3): 146 kB | 136 kB | 15/474 kB
+Progress (3): 146 kB | 136 kB | 16/474 kB
+Progress (3): 146 kB | 136 kB | 17/474 kB
+Progress (3): 146 kB | 136 kB | 18/474 kB
+Progress (3): 146 kB | 136 kB | 23/474 kB
+Progress (3): 146 kB | 136 kB | 27/474 kB
+Progress (3): 146 kB | 136 kB | 31/474 kB
+Progress (3): 146 kB | 136 kB | 35/474 kB
+Progress (3): 146 kB | 136 kB | 40/474 kB
+Progress (3): 146 kB | 136 kB | 44/474 kB
+Progress (3): 146 kB | 136 kB | 48/474 kB
+                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar (136 kB at 115 kB/s)
+Progress (2): 146 kB | 52/474 kB
+Progress (2): 146 kB | 56/474 kB
+Progress (2): 146 kB | 61/474 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar (146 kB at 123 kB/s)
+Progress (2): 61/474 kB | 0/2.3 MB
+Progress (2): 61/474 kB | 0/2.3 MB
+Progress (2): 61/474 kB | 0/2.3 MB
+Progress (2): 61/474 kB | 0/2.3 MB
+Progress (2): 61/474 kB | 0.1/2.3 MB
+Progress (2): 61/474 kB | 0.1/2.3 MB
+Progress (2): 61/474 kB | 0.1/2.3 MB
+Progress (2): 61/474 kB | 0.1/2.3 MB
+Progress (2): 61/474 kB | 0.1/2.3 MB
+Progress (2): 61/474 kB | 0.1/2.3 MB
+Progress (2): 61/474 kB | 0.2/2.3 MB
+Progress (2): 61/474 kB | 0.2/2.3 MB
+Progress (2): 61/474 kB | 0.2/2.3 MB
+Progress (2): 61/474 kB | 0.2/2.3 MB
+Progress (2): 61/474 kB | 0.2/2.3 MB
+Progress (2): 61/474 kB | 0.2/2.3 MB
+Progress (2): 61/474 kB | 0.2/2.3 MB
+Progress (2): 65/474 kB | 0.2/2.3 MB
+Progress (2): 69/474 kB | 0.2/2.3 MB
+Progress (2): 73/474 kB | 0.2/2.3 MB
+Progress (2): 78/474 kB | 0.2/2.3 MB
+Progress (2): 82/474 kB | 0.2/2.3 MB
+Progress (2): 86/474 kB | 0.2/2.3 MB
+Progress (2): 90/474 kB | 0.2/2.3 MB
+Progress (2): 95/474 kB | 0.2/2.3 MB
+Progress (2): 99/474 kB | 0.2/2.3 MB
+Progress (2): 103/474 kB | 0.2/2.3 MB
+Progress (2): 107/474 kB | 0.2/2.3 MB
+Progress (2): 111/474 kB | 0.2/2.3 MB
+Progress (2): 116/474 kB | 0.2/2.3 MB
+Progress (2): 120/474 kB | 0.2/2.3 MB
+Progress (2): 124/474 kB | 0.2/2.3 MB
+Progress (2): 128/474 kB | 0.2/2.3 MB
+Progress (2): 128/474 kB | 0.3/2.3 MB
+Progress (2): 128/474 kB | 0.3/2.3 MB
+Progress (2): 128/474 kB | 0.3/2.3 MB
+Progress (2): 128/474 kB | 0.3/2.3 MB
+Progress (2): 128/474 kB | 0.3/2.3 MB
+Progress (2): 128/474 kB | 0.3/2.3 MB
+Progress (2): 128/474 kB | 0.4/2.3 MB
+Progress (2): 128/474 kB | 0.4/2.3 MB
+Progress (2): 128/474 kB | 0.4/2.3 MB
+Progress (2): 128/474 kB | 0.4/2.3 MB
+Progress (2): 128/474 kB | 0.4/2.3 MB
+Progress (2): 128/474 kB | 0.4/2.3 MB
+Progress (2): 128/474 kB | 0.5/2.3 MB
+Progress (2): 128/474 kB | 0.5/2.3 MB
+Progress (2): 128/474 kB | 0.5/2.3 MB
+Progress (2): 128/474 kB | 0.5/2.3 MB
+Progress (2): 128/474 kB | 0.5/2.3 MB
+Progress (2): 128/474 kB | 0.5/2.3 MB
+Progress (2): 128/474 kB | 0.6/2.3 MB
+Progress (2): 128/474 kB | 0.6/2.3 MB
+Progress (2): 128/474 kB | 0.6/2.3 MB
+Progress (2): 133/474 kB | 0.6/2.3 MB
+Progress (2): 137/474 kB | 0.6/2.3 MB
+Progress (2): 141/474 kB | 0.6/2.3 MB
+Progress (2): 145/474 kB | 0.6/2.3 MB
+Progress (2): 147/474 kB | 0.6/2.3 MB
+Progress (2): 151/474 kB | 0.6/2.3 MB
+Progress (2): 155/474 kB | 0.6/2.3 MB
+Progress (2): 159/474 kB | 0.6/2.3 MB
+Progress (2): 164/474 kB | 0.6/2.3 MB
+Progress (2): 168/474 kB | 0.6/2.3 MB
+Progress (2): 172/474 kB | 0.6/2.3 MB
+Progress (2): 176/474 kB | 0.6/2.3 MB
+Progress (2): 181/474 kB | 0.6/2.3 MB
+Progress (2): 185/474 kB | 0.6/2.3 MB
+Progress (2): 185/474 kB | 0.6/2.3 MB
+Progress (2): 185/474 kB | 0.6/2.3 MB
+Progress (2): 185/474 kB | 0.6/2.3 MB
+Progress (2): 185/474 kB | 0.7/2.3 MB
+Progress (2): 201/474 kB | 0.7/2.3 MB
+Progress (2): 201/474 kB | 0.7/2.3 MB
+Progress (2): 218/474 kB | 0.7/2.3 MB
+Progress (2): 234/474 kB | 0.7/2.3 MB
+Progress (2): 250/474 kB | 0.7/2.3 MB
+Progress (2): 250/474 kB | 0.7/2.3 MB
+Progress (2): 250/474 kB | 0.7/2.3 MB
+Progress (2): 250/474 kB | 0.7/2.3 MB
+Progress (2): 250/474 kB | 0.7/2.3 MB
+Progress (2): 250/474 kB | 0.8/2.3 MB
+Progress (2): 250/474 kB | 0.8/2.3 MB
+Progress (2): 250/474 kB | 0.8/2.3 MB
+Progress (2): 250/474 kB | 0.8/2.3 MB
+Progress (2): 250/474 kB | 0.8/2.3 MB
+Progress (2): 250/474 kB | 0.8/2.3 MB
+Progress (2): 250/474 kB | 0.8/2.3 MB
+Progress (2): 250/474 kB | 0.9/2.3 MB
+Progress (2): 250/474 kB | 0.9/2.3 MB
+Progress (2): 250/474 kB | 0.9/2.3 MB
+Progress (2): 250/474 kB | 0.9/2.3 MB
+Progress (2): 250/474 kB | 0.9/2.3 MB
+Progress (2): 250/474 kB | 0.9/2.3 MB
+Progress (2): 250/474 kB | 1.0/2.3 MB
+Progress (2): 250/474 kB | 1.0/2.3 MB
+Progress (2): 250/474 kB | 1.0/2.3 MB
+Progress (2): 250/474 kB | 1.0/2.3 MB
+Progress (2): 250/474 kB | 1.0/2.3 MB
+Progress (2): 250/474 kB | 1.0/2.3 MB
+Progress (2): 267/474 kB | 1.0/2.3 MB
+Progress (2): 278/474 kB | 1.0/2.3 MB
+Progress (2): 294/474 kB | 1.0/2.3 MB
+Progress (2): 311/474 kB | 1.0/2.3 MB
+Progress (2): 327/474 kB | 1.0/2.3 MB
+Progress (2): 343/474 kB | 1.0/2.3 MB
+Progress (2): 360/474 kB | 1.0/2.3 MB
+Progress (2): 360/474 kB | 1.1/2.3 MB
+Progress (2): 360/474 kB | 1.1/2.3 MB
+Progress (2): 360/474 kB | 1.1/2.3 MB
+Progress (2): 376/474 kB | 1.1/2.3 MB
+Progress (2): 392/474 kB | 1.1/2.3 MB
+Progress (2): 409/474 kB | 1.1/2.3 MB
+Progress (2): 409/474 kB | 1.1/2.3 MB
+Progress (2): 425/474 kB | 1.1/2.3 MB
+Progress (2): 425/474 kB | 1.1/2.3 MB
+Progress (2): 425/474 kB | 1.1/2.3 MB
+Progress (2): 425/474 kB | 1.2/2.3 MB
+Progress (2): 425/474 kB | 1.2/2.3 MB
+Progress (2): 425/474 kB | 1.2/2.3 MB
+Progress (2): 425/474 kB | 1.2/2.3 MB
+Progress (2): 425/474 kB | 1.2/2.3 MB
+Progress (2): 425/474 kB | 1.2/2.3 MB
+Progress (2): 442/474 kB | 1.2/2.3 MB
+Progress (2): 458/474 kB | 1.2/2.3 MB
+Progress (2): 474 kB | 1.2/2.3 MB    
+Progress (2): 474 kB | 1.3/2.3 MB
+Progress (2): 474 kB | 1.3/2.3 MB
+Progress (2): 474 kB | 1.3/2.3 MB
+Progress (2): 474 kB | 1.3/2.3 MB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.12.0/commons-io-2.12.0.jar (474 kB at 325 kB/s)
+Progress (1): 1.3/2.3 MB
+Progress (1): 1.3/2.3 MB
+Progress (1): 1.3/2.3 MB
+Progress (1): 1.4/2.3 MB
+Progress (1): 1.4/2.3 MB
+Progress (1): 1.4/2.3 MB
+Progress (1): 1.4/2.3 MB
+Progress (1): 1.4/2.3 MB
+Progress (1): 1.4/2.3 MB
+Progress (1): 1.5/2.3 MB
+Progress (1): 1.5/2.3 MB
+Progress (1): 1.5/2.3 MB
+Progress (1): 1.5/2.3 MB
+Progress (1): 1.5/2.3 MB
+Progress (1): 1.5/2.3 MB
+Progress (1): 1.6/2.3 MB
+Progress (1): 1.6/2.3 MB
+Progress (1): 1.6/2.3 MB
+Progress (1): 1.6/2.3 MB
+Progress (1): 1.6/2.3 MB
+Progress (1): 1.6/2.3 MB
+Progress (1): 1.7/2.3 MB
+Progress (1): 1.7/2.3 MB
+Progress (1): 1.7/2.3 MB
+Progress (1): 1.7/2.3 MB
+Progress (1): 1.7/2.3 MB
+Progress (1): 1.7/2.3 MB
+Progress (1): 1.8/2.3 MB
+Progress (1): 1.8/2.3 MB
+Progress (1): 1.8/2.3 MB
+Progress (1): 1.8/2.3 MB
+Progress (1): 1.8/2.3 MB
+Progress (1): 1.8/2.3 MB
+Progress (1): 1.9/2.3 MB
+Progress (1): 1.9/2.3 MB
+Progress (1): 1.9/2.3 MB
+Progress (1): 1.9/2.3 MB
+Progress (1): 1.9/2.3 MB
+Progress (1): 1.9/2.3 MB
+Progress (1): 1.9/2.3 MB
+Progress (1): 2.0/2.3 MB
+Progress (1): 2.0/2.3 MB
+Progress (1): 2.0/2.3 MB
+Progress (1): 2.0/2.3 MB
+Progress (1): 2.0/2.3 MB
+Progress (1): 2.0/2.3 MB
+Progress (1): 2.1/2.3 MB
+Progress (1): 2.1/2.3 MB
+Progress (1): 2.1/2.3 MB
+Progress (1): 2.1/2.3 MB
+Progress (1): 2.1/2.3 MB
+Progress (1): 2.1/2.3 MB
+Progress (1): 2.2/2.3 MB
+Progress (1): 2.2/2.3 MB
+Progress (1): 2.2/2.3 MB
+Progress (1): 2.2/2.3 MB
+Progress (1): 2.2/2.3 MB
+Progress (1): 2.2/2.3 MB
+Progress (1): 2.3/2.3 MB
+Progress (1): 2.3/2.3 MB
+Progress (1): 2.3/2.3 MB
+Progress (1): 2.3/2.3 MB
+Progress (1): 2.3/2.3 MB
+Progress (1): 2.3/2.3 MB
+Progress (1): 2.3 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.1.2/surefire-shared-utils-3.1.2.jar (2.3 MB at 1.5 MB/s)
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.1.2/surefire-junit-platform-3.1.2.pom
+Progress (1): 847 B
+Progress (1): 3.5 kB
+Progress (1): 4.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.1.2/surefire-junit-platform-3.1.2.pom (4.7 kB at 64 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.1.2/surefire-providers-3.1.2.pom
+Progress (1): 849 B
+Progress (1): 2.6 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.1.2/surefire-providers-3.1.2.pom (2.6 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.1.2/common-java5-3.1.2.pom
+Progress (1): 849 B
+Progress (1): 2.6 kB
+Progress (1): 2.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.1.2/common-java5-3.1.2.pom (2.8 kB at 34 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.pom
+Progress (1): 966 B
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.pom (3.0 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.pom
+Progress (1): 957 B
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.pom (3.2 kB at 46 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+Progress (1): 1.2 kB
+Progress (1): 1.7 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom (1.7 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.pom
+Progress (1): 971 B
+Progress (1): 2.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.pom (2.8 kB at 37 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.1.2/surefire-junit-platform-3.1.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.1.2/common-java5-3.1.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+Progress (1): 3.8/18 kB
+Progress (1): 8.0/18 kB
+Progress (1): 12/18 kB 
+Progress (1): 16/18 kB
+Progress (1): 18 kB   
+Progress (2): 18 kB | 4.1/169 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.1.2/common-java5-3.1.2.jar (18 kB at 251 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar
+Progress (2): 4.1/169 kB | 7.7/189 kB
+Progress (2): 4.1/169 kB | 16/189 kB 
+Progress (2): 4.1/169 kB | 32/189 kB
+Progress (2): 4.1/169 kB | 49/189 kB
+Progress (2): 20/169 kB | 49/189 kB 
+Progress (2): 37/169 kB | 49/189 kB
+Progress (2): 53/169 kB | 49/189 kB
+Progress (2): 61/169 kB | 49/189 kB
+Progress (2): 78/169 kB | 49/189 kB
+Progress (2): 94/169 kB | 49/189 kB
+Progress (2): 111/169 kB | 49/189 kB
+Progress (2): 127/169 kB | 49/189 kB
+Progress (2): 131/169 kB | 49/189 kB
+Progress (2): 147/169 kB | 49/189 kB
+Progress (2): 164/169 kB | 49/189 kB
+Progress (2): 169 kB | 49/189 kB    
+Progress (3): 169 kB | 49/189 kB | 7.7 kB
+Progress (3): 169 kB | 65/189 kB | 7.7 kB
+Progress (3): 169 kB | 81/189 kB | 7.7 kB
+Progress (3): 169 kB | 98/189 kB | 7.7 kB
+                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar (169 kB at 1.6 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar (7.7 kB at 74 kB/s)
+Progress (2): 98/189 kB | 3.8/27 kB
+Progress (2): 98/189 kB | 8.0/27 kB
+Progress (2): 98/189 kB | 12/27 kB 
+Progress (2): 98/189 kB | 16/27 kB
+Progress (2): 98/189 kB | 20/27 kB
+Progress (2): 98/189 kB | 24/27 kB
+Progress (2): 98/189 kB | 27 kB   
+Progress (2): 114/189 kB | 27 kB
+Progress (2): 131/189 kB | 27 kB
+Progress (2): 147/189 kB | 27 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.1.2/surefire-junit-platform-3.1.2.jar (27 kB at 219 kB/s)
+Progress (1): 163/189 kB
+Progress (1): 180/189 kB
+Progress (1): 189 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar (189 kB at 1.5 MB/s)
+Progress (1): 3.8/103 kB
+Progress (1): 8.0/103 kB
+Progress (1): 12/103 kB 
+Progress (1): 16/103 kB
+Progress (1): 21/103 kB
+Progress (1): 37/103 kB
+Progress (1): 53/103 kB
+Progress (1): 70/103 kB
+Progress (1): 86/103 kB
+Progress (1): 103/103 kB
+Progress (1): 103 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar (103 kB at 656 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.pom
+Progress (1): 967 B
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.pom (3.0 kB at 52 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.jar
+Progress (1): 7.7/184 kB
+Progress (1): 16/184 kB 
+Progress (1): 32/184 kB
+Progress (1): 49/184 kB
+Progress (1): 65/184 kB
+Progress (1): 81/184 kB
+Progress (1): 98/184 kB
+Progress (1): 114/184 kB
+Progress (1): 131/184 kB
+Progress (1): 147/184 kB
+Progress (1): 163/184 kB
+Progress (1): 180/184 kB
+Progress (1): 184 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.jar (184 kB at 1.8 MB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.OnlineBookStore.OnlineBookStoreApplicationTests
+18:55:16.847 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.OnlineBookStore.OnlineBookStoreApplicationTests]: OnlineBookStoreApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:55:16.949 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.OnlineBookStore.OnlineBookStoreApplication for test class com.example.OnlineBookStore.OnlineBookStoreApplicationTests
+18:55:17.210 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2026-02-08T18:55:17.625+05:30  INFO 17124 --- [OnlineBookStore] [           main] c.e.O.OnlineBookStoreApplicationTests    : Starting OnlineBookStoreApplicationTests using Java 17.0.18 with PID 17124 (started by chari in C:\Users\chari\Desktop\Capstone\OnlineBookStore-backend\OnlineBookStore)
+2026-02-08T18:55:17.630+05:30  INFO 17124 --- [OnlineBookStore] [           main] c.e.O.OnlineBookStoreApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-02-08T18:55:19.098+05:30  INFO 17124 --- [OnlineBookStore] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-08T18:55:19.187+05:30  INFO 17124 --- [OnlineBookStore] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2026-02-08T18:55:20.137+05:30  INFO 17124 --- [OnlineBookStore] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-08T18:55:20.315+05:30  INFO 17124 --- [OnlineBookStore] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-08T18:55:20.410+05:30  INFO 17124 --- [OnlineBookStore] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-08T18:55:21.251+05:30  INFO 17124 --- [OnlineBookStore] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-08T18:55:21.295+05:30  INFO 17124 --- [OnlineBookStore] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-08T18:55:21.705+05:30  INFO 17124 --- [OnlineBookStore] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51141f64
+2026-02-08T18:55:21.708+05:30  INFO 17124 --- [OnlineBookStore] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-08T18:55:23.121+05:30  INFO 17124 --- [OnlineBookStore] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-08T18:55:23.197+05:30  INFO 17124 --- [OnlineBookStore] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-08T18:55:24.024+05:30  WARN 17124 --- [OnlineBookStore] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-08T18:55:24.731+05:30  INFO 17124 --- [OnlineBookStore] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@26c494d7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71d0ad00, org.springframework.security.web.context.SecurityContextHolderFilter@e763080, org.springframework.security.web.header.HeaderWriterFilter@2e871e93, org.springframework.web.filter.CorsFilter@56c7e2d1, org.springframework.security.web.authentication.logout.LogoutFilter@b2db8bc, com.example.OnlineBookStore.config.JwtAuthenticationFilter@1ef7e4c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@599cf2cd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52984065, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e549515, org.springframework.security.web.session.SessionManagementFilter@7d8a5ec7, org.springframework.security.web.access.ExceptionTranslationFilter@63f819a6, org.springframework.security.web.access.intercept.AuthorizationFilter@747476f1]
+2026-02-08T18:55:25.367+05:30  INFO 17124 --- [OnlineBookStore] [           main] c.e.O.OnlineBookStoreApplicationTests    : Started OnlineBookStoreApplicationTests in 8.177 seconds (process running for 9.445)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.526 s -- in com.example.OnlineBookStore.OnlineBookStoreApplicationTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.859 s
+[INFO] Finished at: 2026-02-08T18:55:26+05:30
+[INFO] ------------------------------------------------------------------------

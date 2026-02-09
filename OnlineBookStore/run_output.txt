@@ -1,0 +1,88 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.example:OnlineBookStore >---------------------
+[INFO] Building OnlineBookStore 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.3:run (default-cli) > test-compile @ OnlineBookStore >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ OnlineBookStore ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ OnlineBookStore ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 26 source files with javac [debug release 17] to target\classes
+[INFO] /C:/Users/chari/Desktop/Capstone/OnlineBookStore-backend/OnlineBookStore/src/main/java/com/example/OnlineBookStore/service/JWTService.java: C:\Users\chari\Desktop\Capstone\OnlineBookStore-backend\OnlineBookStore\src\main\java\com\example\OnlineBookStore\service\JWTService.java uses or overrides a deprecated API.
+[INFO] /C:/Users/chari/Desktop/Capstone/OnlineBookStore-backend/OnlineBookStore/src/main/java/com/example/OnlineBookStore/service/JWTService.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ OnlineBookStore ---
+[INFO] skip non existing resourceDirectory C:\Users\chari\Desktop\Capstone\OnlineBookStore-backend\OnlineBookStore\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ OnlineBookStore ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 17] to target\test-classes
+[INFO] 
+[INFO] <<< spring-boot:3.2.3:run (default-cli) < test-compile @ OnlineBookStore <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.3:run (default-cli) @ OnlineBookStore ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2026-02-08T21:09:27.713+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] c.e.O.OnlineBookStoreApplication         : Starting OnlineBookStoreApplication using Java 17.0.18 with PID 4088 (C:\Users\chari\Desktop\Capstone\OnlineBookStore-backend\OnlineBookStore\target\classes started by chari in C:\Users\chari\Desktop\Capstone\OnlineBookStore-backend\OnlineBookStore)
+2026-02-08T21:09:27.716+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] c.e.O.OnlineBookStoreApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-02-08T21:09:27.790+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-08T21:09:27.790+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-08T21:09:29.345+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-08T21:09:29.454+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 4 JPA repository interfaces.
+2026-02-08T21:09:30.898+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-02-08T21:09:30.927+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-08T21:09:30.927+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-02-08T21:09:31.013+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-02-08T21:09:31.014+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3222 ms
+2026-02-08T21:09:31.241+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-08T21:09:31.324+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-02-08T21:09:31.386+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-08T21:09:31.879+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-08T21:09:31.943+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-08T21:09:32.477+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10048bcd
+2026-02-08T21:09:32.479+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-08T21:09:34.444+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-08T21:09:34.593+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-08T21:09:35.252+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-08T21:09:36.496+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5080f936, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@533d2384, org.springframework.security.web.context.SecurityContextHolderFilter@7dc8d9e0, org.springframework.security.web.header.HeaderWriterFilter@2dad0fef, org.springframework.web.filter.CorsFilter@7e9021fd, org.springframework.security.web.authentication.logout.LogoutFilter@514835ea, com.example.OnlineBookStore.config.JwtAuthenticationFilter@4f5fcb51, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44efccf6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@12bd3b9c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5883838e, org.springframework.security.web.session.SessionManagementFilter@74d63da3, org.springframework.security.web.access.ExceptionTranslationFilter@5b1dabc5, org.springframework.security.web.access.intercept.AuthorizationFilter@63cc1e5c]
+2026-02-08T21:09:36.934+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-02-08T21:09:36.992+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-02-08T21:09:37.007+05:30  INFO 4088 --- [OnlineBookStore] [  restartedMain] c.e.O.OnlineBookStoreApplication         : Started OnlineBookStoreApplication in 9.996 seconds (process running for 11.029)
+=== Checking for duplicate emails ===
+=== Deleted 1 duplicate user(s) ===
+2026-02-08T21:11:10.049+05:30  INFO 4088 --- [OnlineBookStore] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-08T21:11:10.050+05:30  INFO 4088 --- [OnlineBookStore] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-08T21:11:10.052+05:30  INFO 4088 --- [OnlineBookStore] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password,u1_0.role from user u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password,u1_0.role from user u1_0 where u1_0.email=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password,u1_0.role from user u1_0 where u1_0.email=?
+Hibernate: select b1_0.id,b1_0.author,b1_0.available,b1_0.category,b1_0.created_at,b1_0.description,b1_0.image_url,b1_0.isbn,b1_0.language,b1_0.pages,b1_0.price,b1_0.publication_date,b1_0.publisher,b1_0.rating,b1_0.rating_count,b1_0.sold_count,b1_0.stock,b1_0.title,b1_0.updated_at from books b1_0
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password,u1_0.role from user u1_0 where u1_0.email=?
+DEBUG: Adding book ID 1 to cart for User: 123@gmail.com
+Hibernate: select b1_0.id,b1_0.author,b1_0.available,b1_0.category,b1_0.created_at,b1_0.description,b1_0.image_url,b1_0.isbn,b1_0.language,b1_0.pages,b1_0.price,b1_0.publication_date,b1_0.publisher,b1_0.rating,b1_0.rating_count,b1_0.sold_count,b1_0.stock,b1_0.title,b1_0.updated_at from books b1_0 where b1_0.id=?
+Hibernate: select ci1_0.id,ci1_0.added_at,ci1_0.book_id,ci1_0.quantity,ci1_0.user_id from cart_items ci1_0 left join books b1_0 on b1_0.id=ci1_0.book_id where ci1_0.user_id=? and b1_0.id=?
+DEBUG: Cart item saved. ID: 2, Qty: 7
+Hibernate: update cart_items set added_at=?,book_id=?,quantity=?,user_id=? where id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password,u1_0.role from user u1_0 where u1_0.email=?
+DEBUG: Fetching cart for User ID: 6, Email: 123@gmail.com
+Hibernate: select ci1_0.id,ci1_0.added_at,ci1_0.book_id,b1_0.id,b1_0.author,b1_0.available,b1_0.category,b1_0.created_at,b1_0.description,b1_0.image_url,b1_0.isbn,b1_0.language,b1_0.pages,b1_0.price,b1_0.publication_date,b1_0.publisher,b1_0.rating,b1_0.rating_count,b1_0.sold_count,b1_0.stock,b1_0.title,b1_0.updated_at,ci1_0.quantity,ci1_0.user_id from cart_items ci1_0 join books b1_0 on b1_0.id=ci1_0.book_id where ci1_0.user_id=?
+DEBUG: Found 1 cart items.
+DEBUG: CartController returning 1 items for user: 123@gmail.com
+DEBUG: First item book: The Pragmatic Programmer
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password,u1_0.role from user u1_0 where u1_0.email=?
+Hibernate: select b1_0.id,b1_0.author,b1_0.available,b1_0.category,b1_0.created_at,b1_0.description,b1_0.image_url,b1_0.isbn,b1_0.language,b1_0.pages,b1_0.price,b1_0.publication_date,b1_0.publisher,b1_0.rating,b1_0.rating_count,b1_0.sold_count,b1_0.stock,b1_0.title,b1_0.updated_at from books b1_0

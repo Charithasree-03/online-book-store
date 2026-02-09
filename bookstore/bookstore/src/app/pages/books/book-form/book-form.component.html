@@ -1,0 +1,83 @@
+<div class="card wide">
+  <h2>{{ isEdit ? 'Edit Book' : 'Add Book' }}</h2>
+
+  <div class="success" *ngIf="msg">{{ msg }}</div>
+  <div class="error" *ngIf="err">{{ err }}</div>
+
+  <div class="form-grid">
+    <div>
+      <label>Title *</label>
+      <input [(ngModel)]="book.title" />
+    </div>
+
+    <div>
+      <label>Author *</label>
+      <input [(ngModel)]="book.author" />
+    </div>
+
+    <div>
+      <label>Price *</label>
+      <input type="number" [(ngModel)]="book.price" />
+    </div>
+
+    <div>
+      <label>ISBN *</label>
+      <input [(ngModel)]="book.isbn" />
+    </div>
+
+    <div>
+      <label>Stock *</label>
+      <input type="number" [(ngModel)]="book.stock" />
+    </div>
+
+    <div>
+      <label>Category *</label>
+      <input [(ngModel)]="book.category" />
+    </div>
+
+    <div>
+      <label>Image URL</label>
+      <input [(ngModel)]="book.imageUrl" placeholder="https://..." />
+    </div>
+
+    <div>
+      <label>Pages</label>
+      <input type="number" [(ngModel)]="book.pages" />
+    </div>
+
+    <div>
+      <label>Publisher</label>
+      <input [(ngModel)]="book.publisher" />
+    </div>
+
+    <div>
+      <label>Language</label>
+      <input [(ngModel)]="book.language" />
+    </div>
+
+    <div>
+      <label>Publication Date</label>
+      <input type="date" [(ngModel)]="book.publicationDate" />
+    </div>
+
+    <div>
+      <label>Rating (0-5)</label>
+      <input type="number" step="0.1" [(ngModel)]="book.rating" />
+    </div>
+
+    <div class="full">
+      <label>Description</label>
+      <textarea [(ngModel)]="book.description" rows="4"></textarea>
+    </div>
+  </div>
+
+  <div class="row-actions">
+    <button class="btn primary" (click)="save()">{{ isEdit ? 'Update' : 'Save' }}</button>
+    <button class="btn ghost" (click)="cancel()">Cancel</button>
+  </div>
+
+  <div class="preview" *ngIf="book.imageUrl">
+    <p class="muted">Preview</p>
+    <img [src]="book.imageUrl" alt="preview" />
+  </div>
+</div>

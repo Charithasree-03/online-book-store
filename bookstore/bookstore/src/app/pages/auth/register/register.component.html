@@ -1,0 +1,33 @@
+<div class="card">
+  <h2 style="text-align: center;">Create Account</h2>
+
+  <div class="success" *ngIf="msg">{{ msg }}</div>
+  <div class="error" *ngIf="err">{{ err }}</div>
+
+  <label style="display:block;margin-top:14px;margin-bottom:6px;font-weight:600;">Name</label>
+  <input [(ngModel)]="name" placeholder="Enter name"
+         style="width:100%;display:block;padding:10px;border:1px solid #ddd;border-radius:10px;outline:none;" />
+
+  <label style="display:block;margin-top:14px;margin-bottom:6px;font-weight:600;">Email</label>
+  <input [(ngModel)]="email" type="email" placeholder="Enter email"
+         style="width:100%;display:block;padding:10px;border:1px solid #ddd;border-radius:10px;outline:none;" />
+
+  <label style="display:block;margin-top:14px;margin-bottom:6px;font-weight:600;">Password</label>
+  <input [(ngModel)]="password" type="password" placeholder="Enter password"
+         style="width:100%;display:block;padding:10px;border:1px solid #ddd;border-radius:10px;outline:none;" />
+
+  <label style="display:block;margin-top:14px;margin-bottom:6px;font-weight:600;">Role</label>
+  <select [(ngModel)]="role"
+          style="width:100%;display:block;padding:10px;border:1px solid #ddd;border-radius:10px;outline:none;background:#fff;">
+    <option *ngFor="let r of roles" [ngValue]="r">{{ r }}</option>
+  </select>
+
+  <button class="btn primary" (click)="submit()"
+          style="width:100%;display:block;margin-top:14px;padding:10px 12px;border-radius:10px;">
+    Sign Up
+  </button>
+
+  <p class="muted" style="margin-top:12px;">
+    Already have an account? <a routerLink="/login">Login</a>
+  </p>
+</div>

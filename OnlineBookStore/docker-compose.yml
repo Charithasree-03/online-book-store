@@ -1,0 +1,22 @@
+services:
+  mysql:
+    image: mysql:8
+    container_name: bookstore-mysql
+    environment:
+      MYSQL_DATABASE: bookstore
+      MYSQL_ROOT_PASSWORD: Mouni@29
+    ports:
+      - "3307:3306"
+
+  app:
+    build: .
+    image: bookstore
+    container_name: bookstore-app
+    depends_on:
+      - mysql
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/bookstore
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Mouni@29
+    ports:
+      - "8080:8080"

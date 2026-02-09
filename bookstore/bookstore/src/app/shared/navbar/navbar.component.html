@@ -1,0 +1,29 @@
+<div class="nav">
+  <div class="left">
+    <a routerLink="/books" class="brand">
+      <img class="logo" src="https://tse1.mm.bing.net/th/id/OIP.u2lMjcNlcBdF_Aftd_BnVQHaHa?w=626&h=626&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Logo" />
+      OnlineBookStore
+    </a>
+  </div>
+
+  <div class="right">
+    <!-- ✅ CART (USER only) -->
+    <a *ngIf="token.isLoggedIn() && token.isUser()" routerLink="/cart" class="link cart">
+  🛒
+  <span class="count" *ngIf="(cartCount$ | async) as c">{{ c }}</span>
+</a>
+
+
+    <!-- ✅ ADMIN only -->
+    <a *ngIf="token.isAdmin()" routerLink="/admin/books/new" class="link admin">+ Add Book</a>
+
+    <span *ngIf="token.isLoggedIn()" class="badge">
+      {{ token.getName() || 'User' }} <b *ngIf="token.isAdmin()"> (ADMIN)</b>
+    </span>
+
+    <a *ngIf="!token.isLoggedIn()" routerLink="/login" class="link">Login</a>
+    <a *ngIf="!token.isLoggedIn()" routerLink="/register" class="link">Register</a>
+
+    <button *ngIf="token.isLoggedIn()" (click)="logout()" class="btn">Logout</button>
+  </div>
+</div>

@@ -1,0 +1,86 @@
+/* You can add global styles to this file, and also import other style files */
+*{box-sizing:border-box;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;}
+body{margin:0;background:#f6f7fb;color:#111;}
+.container{max-width:1100px;margin:18px auto;padding:0 14px;}
+
+.nav{display:flex;justify-content:space-between;align-items:center;padding:12px 18px;background:#fff;border-bottom:1px solid #e9e9ef;position:sticky;top:0;z-index:5}
+.brand{font-weight:800;text-decoration:none;color:#111;margin-right:14px}
+.link{text-decoration:none;color:#333;margin-right:12px}
+.link.admin{font-weight:700;text-align:right;padding:6px 12px;border:1px solid #ddd;border-radius:10px;background:#fafafa}
+.left,.right{display:flex;align-items:center;gap:10px}
+
+.badge{padding:6px 10px;border:1px solid #ddd;border-radius:999px;background:#fafafa;font-size:13px}
+.btn{border:1px solid #ddd;background:#fff;padding:8px 12px;border-radius:10px;cursor:pointer}
+.btn:hover{filter:brightness(0.98)}
+.btn.primary{border-color:#222;background:#222;color:#fff}
+.btn.danger{border-color:#d33;background:#d33;color:#fff}
+.btn.ghost{background:transparent}
+.card{background:#fff;border:1px solid #e9e9ef;border-radius:14px;padding:16px;max-width:420px;margin:20px auto;box-shadow:0 6px 18px rgba(0,0,0,0.04)}
+.card.wide{max-width:900px}
+label{display:block;margin-top:10px;margin-bottom:6px;font-weight:600;font-size:13px;color:#333}
+input,textarea{width:100%;padding:10px;border-radius:10px;border:1px solid #ddd;outline:none}
+textarea{resize:vertical}
+.error{background:#ffe7e7;border:1px solid #ffbcbc;padding:10px;border-radius:10px;margin:10px 0}
+.success{background:#e8ffea;border:1px solid #bff5c3;padding:10px;border-radius:10px;margin:10px 0}
+.muted{color:#666;font-size:13px}
+
+.row{display:flex;flex-direction:column;gap:14px}
+.search{display:flex;gap:10px;align-items:center}
+.search input{flex:1}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.book{background:#fff;border:1px solid #e9e9ef;border-radius:14px;overflow:hidden;display:flex;gap:12px}
+.book img{width:120px;height:160px;object-fit:cover;border-right:1px solid #eee}
+.info{padding:12px;flex:1}
+.info h3{margin:0 0 4px 0}
+.pill{padding:3px 8px;border:1px solid #ddd;border-radius:999px;background:#fafafa;font-size:12px}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+
+.detail-card{background:#fff;border:1px solid #e9e9ef;border-radius:14px;display:flex;gap:18px;padding:16px}
+.detail-card img{width:220px;height:300px;object-fit:cover;border-radius:12px;border:1px solid #eee}
+.dinfo{flex:1}
+.price{font-size:20px;font-weight:800}
+.meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:10px 0}
+.desc{margin-top:10px;line-height:1.5}
+
+.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.form-grid .full{grid-column:1 / -1}
+.row-actions{display:flex;gap:10px;margin-top:12px}
+.preview img{max-width:220px;border-radius:12px;border:1px solid #eee;margin-top:6px}
+
+.logo{
+  width:50px;
+  height:50px;
+  object-fit:contain;
+}
+
+
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;text-decoration:none;color:inherit}
+.logo{width:28px;height:28px;object-fit:contain}
+
+.cart{position:relative}
+.count{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-width:18px;height:18px;padding:0 6px;margin-left:6px;
+  border-radius:999px;border:1px solid #ddd;background:#fff;font-size:12px;font-weight:700;
+}
+
+
+.cart {
+  position: relative;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.count {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: green;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 50px;
+  min-width: 18px;
+  text-align: center;
+}
